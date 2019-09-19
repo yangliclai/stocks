@@ -11,7 +11,7 @@ def home(request):
     import requests
     import json
 
-    # # pk_dcfb6b0b0c3??????8703c??
+    #  pk_dcfb6b0b0c3??????8703c??
 
     if request.method == 'POST':
         ticker = request.POST['ticker']
